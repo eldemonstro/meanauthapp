@@ -1,6 +1,6 @@
 {
   "name": "meanauth",
-  "version": "1.0.0",
+  "version": "0.1.5",
   "description": "mean stack auth app",
   "main": "app.js",
   "scripts": {
@@ -18,5 +18,20 @@
     "passport-jwt": "*"
   },
   "author": "Fabricio Bezerra",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eldemonstro/meanauthapp.git"
+  },
+  "keywords": [
+    "mean",
+    "stack",
+    "auth",
+    "app"
+  ],
+  "bugs": {
+    "url": "https://github.com/eldemonstro/meanauthapp/issues"
+  },
+  "homepage": "https://github.com/eldemonstro/meanauthapp#readme"
 }
