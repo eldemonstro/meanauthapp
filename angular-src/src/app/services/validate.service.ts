@@ -13,7 +13,7 @@ export class ValidateService {
     }
   }
 
-  validateLogin(user){
+  validateLogin(user) {
     if (user.name == undefined || user.password == undefined) {
       return false;
     } else {
@@ -24,6 +24,14 @@ export class ValidateService {
   validateEmail(email) {
     const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
+  }
+
+  validatePassword(password, confirmPassword) {
+    if (password != confirmPassword) {
+      return false;
+    } else {
+      return true;
+    }
   }
 
 }

@@ -6,6 +6,8 @@
 
 >Use "npm start" in the main folder and "ng serve" in angular-src folder 
 
+>If angular2-flash-messages did not update since 04/04/2017 go to angular-src/node_modules/angular2-flash-messages and create a "index.d.ts" file and add "export * from './module/index';"
+
 This is a authentication app using the MEAN stack.
 
 This is only used to learn the environments, the code is free to use by anyone.
